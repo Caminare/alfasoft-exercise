@@ -92,7 +92,10 @@ namespace AlfasoftBitBucket
                 config.AppSettings.Settings["lastRunTime"].Value = DateTime.Now.ToString();
                 config.Save(ConfigurationSaveMode.Modified);
                 ConfigurationManager.RefreshSection("appSettings");
+                Thread.Sleep(1000);
             }
+
+            Console.WriteLine("Starting to closing the app.");
             
             for (int i = 5; i > 0; i--)
             {
