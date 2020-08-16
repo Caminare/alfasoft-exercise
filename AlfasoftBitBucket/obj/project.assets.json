@@ -674,11 +674,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\gxvit\\Documents\\Git\\alfasoft-exercise\\AlfasoftBitBucket\\AlfasoftBitBucket\\AlfasoftBitBucket.csproj",
+      "projectUniqueName": "C:\\Users\\gxvit\\Documents\\Git\\alfasoft-exercise\\AlfasoftBitBucket\\AlfasoftBitBucket.csproj",
       "projectName": "AlfasoftBitBucket",
-      "projectPath": "C:\\Users\\gxvit\\Documents\\Git\\alfasoft-exercise\\AlfasoftBitBucket\\AlfasoftBitBucket\\AlfasoftBitBucket.csproj",
+      "projectPath": "C:\\Users\\gxvit\\Documents\\Git\\alfasoft-exercise\\AlfasoftBitBucket\\AlfasoftBitBucket.csproj",
       "packagesPath": "C:\\Users\\gxvit\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gxvit\\Documents\\Git\\alfasoft-exercise\\AlfasoftBitBucket\\AlfasoftBitBucket\\obj\\",
+      "outputPath": "C:\\Users\\gxvit\\Documents\\Git\\alfasoft-exercise\\AlfasoftBitBucket\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",

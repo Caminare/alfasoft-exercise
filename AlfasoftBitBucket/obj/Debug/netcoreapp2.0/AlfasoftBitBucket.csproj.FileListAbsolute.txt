@@ -1,0 +1,11 @@
+C:\Users\gxvit\Documents\Git\alfasoft-exercise\AlfasoftBitBucket\bin\Debug\netcoreapp2.0\AlfasoftBitBucket.deps.json
+C:\Users\gxvit\Documents\Git\alfasoft-exercise\AlfasoftBitBucket\bin\Debug\netcoreapp2.0\AlfasoftBitBucket.runtimeconfig.json
+C:\Users\gxvit\Documents\Git\alfasoft-exercise\AlfasoftBitBucket\bin\Debug\netcoreapp2.0\AlfasoftBitBucket.runtimeconfig.dev.json
+C:\Users\gxvit\Documents\Git\alfasoft-exercise\AlfasoftBitBucket\bin\Debug\netcoreapp2.0\AlfasoftBitBucket.dll
+C:\Users\gxvit\Documents\Git\alfasoft-exercise\AlfasoftBitBucket\bin\Debug\netcoreapp2.0\AlfasoftBitBucket.pdb
+C:\Users\gxvit\Documents\Git\alfasoft-exercise\AlfasoftBitBucket\obj\Debug\netcoreapp2.0\AlfasoftBitBucket.csprojResolveAssemblyReference.cache
+C:\Users\gxvit\Documents\Git\alfasoft-exercise\AlfasoftBitBucket\obj\Debug\netcoreapp2.0\AlfasoftBitBucket.csproj.CoreCompileInputs.cache
+C:\Users\gxvit\Documents\Git\alfasoft-exercise\AlfasoftBitBucket\obj\Debug\netcoreapp2.0\AlfasoftBitBucket.AssemblyInfoInputs.cache
+C:\Users\gxvit\Documents\Git\alfasoft-exercise\AlfasoftBitBucket\obj\Debug\netcoreapp2.0\AlfasoftBitBucket.AssemblyInfo.cs
+C:\Users\gxvit\Documents\Git\alfasoft-exercise\AlfasoftBitBucket\obj\Debug\netcoreapp2.0\AlfasoftBitBucket.dll
+C:\Users\gxvit\Documents\Git\alfasoft-exercise\AlfasoftBitBucket\obj\Debug\netcoreapp2.0\AlfasoftBitBucket.pdb
