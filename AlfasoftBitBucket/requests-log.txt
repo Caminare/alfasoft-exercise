@@ -1,0 +1,28 @@
+User Snoz58
+Request: https://api.bitbucket.org/2.0/users/Snoz58
+Response: {"type": "error", "error": {"message": "Snoz58"}}
+-------------------------------------------------------------------------------------
+User alfasoftdev
+Request: https://api.bitbucket.org/2.0/users/alfasoftdev
+Response: {"type": "error", "error": {"message": "alfasoftdev"}}
+-------------------------------------------------------------------------------------
+User 5f393c8b3236070038779586
+Request: https://api.bitbucket.org/2.0/users/5f393c8b3236070038779586
+Response: {"display_name": "Gabriel Vitor", "uuid": "{0bee1a09-8896-4f8b-899a-0c86841d41bf}", "links": {"hooks": {"href": "https://api.bitbucket.org/2.0/users/%7B0bee1a09-8896-4f8b-899a-0c86841d41bf%7D/hooks"}, "self": {"href": "https://api.bitbucket.org/2.0/users/%7B0bee1a09-8896-4f8b-899a-0c86841d41bf%7D"}, "repositories": {"href": "https://api.bitbucket.org/2.0/repositories/%7B0bee1a09-8896-4f8b-899a-0c86841d41bf%7D"}, "html": {"href": "https://bitbucket.org/%7B0bee1a09-8896-4f8b-899a-0c86841d41bf%7D/"}, "avatar": {"href": "https://secure.gravatar.com/avatar/f3d23d8a599373e000a1bab7030739e1?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FGV-6.png"}, "snippets": {"href": "https://api.bitbucket.org/2.0/snippets/%7B0bee1a09-8896-4f8b-899a-0c86841d41bf%7D"}}, "nickname": "Gabriel Vitor", "created_on": "2020-08-16T14:03:41.320175+00:00", "is_staff": false, "location": null, "account_status": "active", "type": "user", "account_id": "5f393c8b3236070038779586"}
+-------------------------------------------------------------------------------------
+User smugcunt
+Request: https://api.bitbucket.org/2.0/users/smugcunt
+Response: {"type": "error", "error": {"message": "smugcunt"}}
+-------------------------------------------------------------------------------------
+User alfasoft
+Request: https://api.bitbucket.org/2.0/users/alfasoft
+Response: {"type": "error", "error": {"message": "alfasoft"}}
+-------------------------------------------------------------------------------------
+User gabriel
+Request: https://api.bitbucket.org/2.0/users/gabriel
+Response: {"type": "error", "error": {"message": "gabriel"}}
+-------------------------------------------------------------------------------------
+User miguel
+Request: https://api.bitbucket.org/2.0/users/miguel
+Response: {"type": "error", "error": {"message": "miguel"}}
+-------------------------------------------------------------------------------------
