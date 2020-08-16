@@ -1,7 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
+using System.Net;
+using System.Net.Http;
 using System.Threading;
+using System.Threading.Tasks;
 
 namespace AlfasoftBitBucket
 {
@@ -31,15 +35,22 @@ namespace AlfasoftBitBucket
             if (usersFile.Length == 0)
             {
                 Console.WriteLine("No users were found in the file!");
+                CloseApp();
             }
 
+
+            Console.WriteLine("\n -------------------------------------------------------------------------------------------- \n");
 
             foreach (string user in usersFile)
             {
-                Console.WriteLine(user);
-            }
+                bool last = usersFile.Last() == user;
+                GetUserData(user);
 
-            CloseApp();
+                if (!last)
+                    Thread.Sleep(5000);
+                else
+                    CloseApp();
+            }
 
         }
 
@@ -66,6 +77,30 @@ namespace AlfasoftBitBucket
             }
 
             Environment.Exit(0);
+        }
+
+        private static async void GetUserData(string user)
+        {
+            string baseUrl = "https://api.bitbucket.org/2.0/users/" + user;
+
+            using (HttpClient client = new HttpClient())
+            {
+                Console.WriteLine("User {0}", user);
+
+                HttpResponseMessage response = await client.GetAsync(baseUrl);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    string data = await response.Content.ReadAsStringAsync();
+                    Console.WriteLine(data);
+                }
+
+                else if(response.StatusCode == HttpStatusCode.NotFound)
+                    Console.WriteLine("User not found");
+
+                Console.WriteLine("\n -------------------------------------------------------------------------------------------- \n");
+
+            }
         }
     }
 }
